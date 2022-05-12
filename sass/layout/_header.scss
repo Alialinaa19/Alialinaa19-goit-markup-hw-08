@@ -1,0 +1,140 @@
+
+.nav-list {
+    display: none;
+}
+.address-list--header {
+    display: none;
+}
+.container--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: var(--white-color);
+position: relative;
+}
+
+.menu-for-mobile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    overflow: auto;
+}
+
+.close-mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    padding-top: 21px;
+    padding-right: 25.33px ;
+    padding-left: 11px;
+    padding-bottom: 5px;
+    fill: var(--primary-text-color);
+    line-height: 0px;
+}
+
+.mobile-menu__container {
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+// .header {background-color: var(--white-color);
+//     font-weight: 500;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+
+//     border-bottom: solid 1px #ECECEC;
+    
+// }
+
+
+
+// .nav-list__item {
+// position: relative;
+
+// & + & {
+//     margin-left: 50px;
+// }
+
+// }
+
+// .header-nav {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .nav-list {
+//     display: flex;
+    
+// }
+
+// .nav-list__link
+//     {color: var(--primary-text-color);
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+//     &:hover, &:focus
+// {color: var(--accent-color);
+// }
+// &:active
+// {color: var(--accent-color);
+// }
+// }
+
+
+// .address-list--header {
+//     display: flex;
+//     margin-left: auto;
+//     align-items: center;
+// }
+
+// .address-list__item + .address-list__item {
+//     margin-left: 50px;
+// }
+
+// .address-list__link {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+
+//     &:hover,
+//     &:focus {
+//         color: var(--accent-color);    
+//     }
+// }
+
+// .address-list__icon {
+//     vertical-align: middle;
+//     margin-right: 10px;
+//     fill: currentColor;
+// }
+
+// .nav-list__link--active {
+//     color: var(--accent-color);
+//     &::after {
+//         content: "";
+//         display: block;
+//         position: absolute;
+//         bottom: -34px;
+//         width: 100%;
+//         height: 4px;
+//         background-color: var(--accent-color);
+//         border-radius: 2px;
+//         }
+// }
+
+
